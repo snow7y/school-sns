@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "tsx watch src/devServer.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/src/routes/index.js",
     "lint": "eslint",
     "format": "prettier .",
     "check": "prettier --write . && eslint --fix",

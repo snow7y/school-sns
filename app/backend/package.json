@@ -27,6 +27,9 @@
     "prettier": "catalog:",
     "prisma": "^7.2.0",
     "tsx": "^4.7.1",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "vite-tsconfig-paths": "catalog:",
+    "vitest": "catalog:",
+    "@vitest/coverage-v8": "catalog:"
   }
 }

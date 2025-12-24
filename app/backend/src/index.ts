@@ -2,7 +2,7 @@ import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 
-const app = new Hono()
+export const app = new Hono()
   .use(
     '*',
     cors({

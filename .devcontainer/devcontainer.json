@@ -26,6 +26,6 @@
       ]
     }
   },
-  "postAttachCommand": "sudo chown -R node:node /workspace /workspace/.pnpm-store && pnpm install",
+  "postAttachCommand": "sudo chown -R node:node /workspace /workspace/.pnpm-store && pnpm install && pnpm prisma generate",
   "forwardPorts": [3000, 3157, 51212]
 }

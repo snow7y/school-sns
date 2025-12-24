@@ -6,5 +6,12 @@
     "pnpm": "10.25.0",
     "npm": "please_use_pnpm_instead"
   },
-  "packageManager": "pnpm@10.25.0"
+  "packageManager": "pnpm@10.25.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel --stream --filter ./app/backend --filter ./app/frontend run dev",
+    "build": "pnpm -r --filter ./app/backend --filter ./app/frontend run build",
+    "preview": "pnpm --filter ./app/backend run start & pnpm --filter ./app/frontend run preview",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format"
+  }
 }

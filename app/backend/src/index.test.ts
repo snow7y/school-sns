@@ -1,5 +1,5 @@
 import { testClient } from 'hono/testing'
-import { app } from './index.ts'
+import { app } from './index.js'
 
 describe('GET /demo', () => {
   it('should return correct JSON', async () => {
